@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T10:47:09.559Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.7.0" etag="XiYl6oudQySzX65xj5cW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T15:09:45.339Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RZIUcrsj2DJEBHbe1bI8" version="21.7.0" type="github">
   <diagram name="Page-1" id="ioYPfJV-sjJExoSzLBih">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="71F8svFakzDzCP3hwvKZ-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=30;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="71F8svFakzDzCP3hwvKZ-1" source="71F8svFakzDzCP3hwvKZ-3" target="71F8svFakzDzCP3hwvKZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-3" value="&lt;font style=&quot;font-size: 36px;&quot; color=&quot;#ffffff&quot;&gt;sso&lt;/font&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-1">
+          <mxGeometry x="10" y="10" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-4" value="" style="shape=datastore;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#000000;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-1">
+          <mxGeometry x="140" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-5" value="&lt;font color=&quot;#ffffff&quot;&gt;Features&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0A95FF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-6" value="&lt;font color=&quot;#ffffff&quot;&gt;CRUD Clients&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-7" value="&lt;font color=&quot;#ffffff&quot;&gt;CRUD Roles&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-8" value="&lt;font color=&quot;#ffffff&quot;&gt;CRUD Users&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-5">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71F8svFakzDzCP3hwvKZ-9" value="&lt;font color=&quot;#ffffff&quot;&gt;guest(patient)&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="71F8svFakzDzCP3hwvKZ-5">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
