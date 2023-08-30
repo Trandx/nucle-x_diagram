@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T02:06:43.125Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.9" etag="BeQLpRq5reLR3bSeKk7z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T03:13:57.525Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QKjcxE5f0i61vsFwjUtK" version="21.6.9" type="github">
   <diagram name="Page-1" id="pXtxrxTZ4QId9tGhRIVe">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="320" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-2" value="&lt;font color=&quot;#ffffff&quot;&gt;roles&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0A95FF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-3" value="&lt;font color=&quot;#ffffff&quot;&gt;super&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-2">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-4" value="&lt;font color=&quot;#ffffff&quot;&gt;admin&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-2">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-13" value="&lt;font color=&quot;#ffffff&quot;&gt;staff&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-2">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-14" value="&lt;font color=&quot;#ffffff&quot;&gt;guest(patient)&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-2">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-6" value="&lt;font color=&quot;#ffffff&quot;&gt;services&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0A95FF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-7" value="&lt;font color=&quot;#ffffff&quot;&gt;super&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-8" value="&lt;font color=&quot;#ffffff&quot;&gt;admin&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-6">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMkT4XTFU-tyP4uxsaWW-9" value="&lt;font color=&quot;#ffffff&quot;&gt;médecin&lt;/font&gt;" style="text;strokeColor=none;fillColor=#000000;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KMkT4XTFU-tyP4uxsaWW-6">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
